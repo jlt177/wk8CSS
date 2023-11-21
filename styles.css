@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+#love {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
   background-color: rgb(216, 195, 235);
 }
@@ -37,9 +41,9 @@ a {
 
 table {
   margin: auto;
-  background-color: rgb(225, 208, 246);
+  background-color: whitesmoke;
   padding: 80px;
-  border: 2px solid rgb(44, 7, 80); 
+  border: 40px solid rgb(241, 143, 210); 
   border-spacing: 20px;
 
 }
@@ -67,21 +71,27 @@ li{
 }
 
 .flex-container{
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
 ul {
-
+ color:rgb(44, 7, 80)
 }
 
 form {
-
+  border: 10px solid rgb(241, 143, 210);
+  background-color: whitesmoke;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
 }
 
 input {
-
+  color: rgb(146, 97, 196);
 }
 
 label {
-  
+  color:rgb(238, 12, 121)
 }
