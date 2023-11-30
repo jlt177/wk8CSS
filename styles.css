@@ -50,7 +50,8 @@ table {
 
 thead {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:rgb(44, 7, 80) 
+  color:rgb(44, 7, 80);
+   
 
 }
 
@@ -64,6 +65,11 @@ td {
 
 tbody {
   text-align: left;
+}
+
+tfoot {
+  text-align: center;
+  font-weight: bold ;
 }
 
 li{
